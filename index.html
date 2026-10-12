@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Traskoon Fast Food Swabi | Afghan & BBQ Cuisine</title>
+  <meta name="description" content="Explore Traskoon Fast Food Swabi for Afghan cuisine, mutton karahi, namkeen gosht, BBQ and traditional dishes near Swabi Interchange.">
+  <meta name="theme-color" content="#10251b">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+  <a href="#home" class="logo">
+    <span class="logo-icon">T</span>
+    <span>TRASKOON<small>FAST FOOD · SWABI</small></span>
+  </a>
+
+  <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+  <nav class="nav" id="navigation">
+    <a href="#home">Home</a>
+    <a href="#menu">Our Menu</a>
+    <a href="#about">About</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact</a>
+    <a href="#menu" class="nav-order">Order Food ↗</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <span class="eyebrow">AUTHENTIC TASTE · SWABI</span>
+      <h1>Experience the <span>Authentic Taste</span> of Traskoon</h1>
+      <p>Discover traditional Afghan flavours, delicious Namkeen Gosht, mouthwatering Mutton Karahi and freshly grilled BBQ.</p>
+
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-gold">Explore Our Menu ↗</a>
+        <a href="tel:+923339422743" class="btn btn-outline">☎ Call to Order</a>
+      </div>
+
+      <div class="hero-rating">
+        <span class="stars">★★★★★</span>
+        <strong>4.2/5</strong>
+        <span>Google rating · 823 reviews</span>
+      </div>
+    </div>
+    <div class="hero-badge"><strong>TRADITIONAL</strong><span>FLAVOURS OF THE REGION</span></div>
+  </section>
+
+  <section class="services">
+    <div><span>♨</span><p><strong>Freshly Prepared</strong><small>Traditional flavours</small></p></div>
+    <div><span>✦</span><p><strong>Afghan & Pakistani</strong><small>Classic favourites</small></p></div>
+    <div><span>⌂</span><p><strong>Convenient Location</strong><small>Swabi Interchange</small></p></div>
+    <div><span>➜</span><p><strong>Multiple Options</strong><small>Dine-in, pickup & delivery</small></p></div>
+  </section>
+
+  <section class="section menu-section" id="menu">
+    <div class="section-heading">
+      <span class="eyebrow">A TASTE TO REMEMBER</span>
+      <h2>Explore Our <span>Popular Menu</span></h2>
+      <p>Discover traditional favourites and delicious food for every appetite.</p>
+    </div>
+
+    <div class="menu-grid">
+      <article class="food-card">
+        <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=800&q=80" alt="Mutton karahi style curry" loading="lazy">
+        <div class="food-info"><span class="food-tag">CUSTOMER FAVOURITE</span><h3>Mutton Karahi</h3><p>Traditional meat curry with aromatic spices.</p><div class="food-bottom"><strong>Price on Request</strong><button class="add-btn" data-add="Mutton Karahi">+ Add</button></div></div>
+      </article>
+
+      <article class="food-card">
+        <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=800&q=80" alt="Grilled fish served with lemon" loading="lazy">
+        <div class="food-info"><span class="food-tag">GRILLED SPECIAL</span><h3>Grilled Fish</h3><p>Grilled fish with delicious seasoning.</p><div class="food-bottom"><strong>Price on Request</strong><button class="add-btn" data-add="Grilled Fish">+ Add</button></div></div>
+      </article>
+
+      <article class="food-card">
+        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" alt="Traditional grilled meat" loading="lazy">
+        <div class="food-info"><span class="food-tag">TRADITIONAL</span><h3>Namkeen Gosht</h3><p>A regional meat speciality with rich, simple flavours.</p><div class="food-bottom"><strong>Price on Request</strong><button class="add-btn" data-add="Namkeen Gosht">+ Add</button></div></div>
+      </article>
+
+      <article class="food-card">
+        <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80" alt="Traditional slow cooked food" loading="lazy">
+        <div class="food-info"><span class="food-tag">SLOW COOKED</span><h3>Dum Pukht</h3><p>Slow-cooked meat inspired by traditional cuisine.</p><div class="food-bottom"><strong>Price on Request</strong><button class="add-btn" data-add="Dum Pukht">+ Add</button></div></div>
+      </article>
+
+      <article class="food-card">
+        <img src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=800&q=80" alt="Barbecue meat on a grill" loading="lazy">
+        <div class="food-info"><span class="food-tag">BBQ SPECIAL</span><h3>BBQ Special</h3><p>Smoky grilled meat with traditional seasoning.</p><div class="food-bottom"><strong>Price on Request</strong><button class="add-btn" data-add="BBQ Special">+ Add</button></div></div>
+      </article>
+
+      <article class="food-card">
+        <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=800&q=80" alt="A generous traditional food platter" loading="lazy">
+        <div class="food-info"><span class="food-tag">SHARING PLATTER</span><h3>Afghan Special Platter</h3><p>A generous platter inspired by Afghan cuisine.</p><div class="food-bottom"><strong>Price on Request</strong><button class="add-btn" data-add="Afghan Special Platter">+ Add</button></div></div>
+      </article>
+
+      <article class="food-card">
+        <img src="https://images.unsplash.com/photo-1488900128323-21503983a07e?auto=format&fit=crop&w=800&q=80" alt="Sweet dessert" loading="lazy">
+        <div class="food-info"><span class="food-tag">SWEET ENDING</span><h3>Traditional Falooda</h3><p>A refreshing dessert to finish your meal.</p><div class="food-bottom"><strong>Price on Request</strong><button class="add-btn" data-add="Traditional Falooda">+ Add</button></div></div>
+      </article>
+    </div>
+    <p class="menu-note">Menu items and food photographs are illustrative. Confirm availability, actual restaurant photos and prices directly with the restaurant.</p>
+  </section>
+
+  <section class="about-section" id="about">
+    <div class="about-image">
+      <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1000&q=85" alt="Grilled food prepared for dining" loading="lazy">
+      <div class="image-caption"><strong>Authentic Flavours</strong><span>Made for memorable meals</span></div>
+    </div>
+    <div class="about-content">
+      <span class="eyebrow">WELCOME TO TRASKOON</span>
+      <h2>Tradition on Every <span>Plate</span></h2>
+      <p>Discover a selection of Afghan and Pakistani favourites at Traskoon Fast Food Swabi, conveniently located near Swabi Interchange.</p>
+      <p>From Mutton Karahi and Namkeen Gosht to grilled fish and BBQ, explore traditional dishes in a welcoming dining setting.</p>
+      <ul class="check-list">
+        <li>✓ Traditional Afghan and Pakistani cuisine</li>
+        <li>✓ Popular mutton and BBQ specialties</li>
+        <li>✓ Dine-in, curbside pickup and delivery options</li>
+        <li>✓ Convenient Swabi Interchange location</li>
+      </ul>
+      <a class="btn btn-gold" href="#contact">Visit Our Location ↗</a>
+    </div>
+  </section>
+
+  <section class="section features-section">
+    <div class="section-heading">
+      <span class="eyebrow">WHY VISIT US?</span>
+      <h2>A Place for <span>Good Food</span></h2>
+    </div>
+    <div class="features-grid">
+      <article class="feature-card"><span>♨</span><h3>Traditional Cuisine</h3><p>Explore familiar regional dishes and traditional flavours.</p></article>
+      <article class="feature-card"><span>♨</span><h3>BBQ & Mutton</h3><p>Discover popular grilled and mutton specialities.</p></article>
+      <article class="feature-card"><span>⌂</span><h3>Convenient Location</h3><p>Find us near Swabi Interchange in Anbar.</p></article>
+      <article class="feature-card"><span>➜</span><h3>Flexible Service</h3><p>Dine in, arrange pickup or enquire about delivery.</p></article>
+    </div>
+  </section>
+
+  <section class="reviews-section" id="reviews">
+    <div class="section-heading">
+      <span class="eyebrow">CUSTOMER FEEDBACK</span>
+      <h2>Food Worth <span>Talking About</span></h2>
+      <p>Based on the Google Maps information provided for this website.</p>
+    </div>
+    <div class="review-score"><span class="stars">★★★★★</span><strong>4.2 <small>/ 5</small></strong><span>823 Google reviews</span></div>
+    <div class="review-highlights">
+      <div><strong>Food Quality</strong><p>Customer feedback highlights the food and traditional flavours.</p></div>
+      <div><strong>Service</strong><p>Reviews mention convenient service and quick food service.</p></div>
+      <div><strong>Dining Experience</strong><p>Visitors have mentioned comfortable outdoor seating.</p></div>
+    </div>
+    <a class="btn btn-gold" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Traskoon+Fast+Food+Swabi">Read Google Reviews ↗</a>
+  </section>
+
+  <section class="section gallery-section" id="gallery">
+    <div class="section-heading">
+      <span class="eyebrow">A VISUAL TASTE</span>
+      <h2>Food & <span>Dining Gallery</span></h2>
+      <p>Illustrative food photography. Actual restaurant photographs can be added later.</p>
+    </div>
+    <div class="gallery-grid">
+      <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=80" alt="Grilled meat" loading="lazy">
+      <img src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=700&q=80" alt="BBQ food" loading="lazy">
+      <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80" alt="Grilled fish" loading="lazy">
+      <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=700&q=80" alt="Prepared meal" loading="lazy">
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="contact-content">
+      <span class="eyebrow">COME VISIT US</span>
+      <h2>Find Your Way to <span>Traskoon</span></h2>
+      <p>Planning a meal? Contact the restaurant to confirm today's menu, prices, timings and delivery availability.</p>
+      <div class="contact-details">
+        <div><span>⌖</span><p><strong>Our Location</strong><small>Swabi Interchange, Anbar, 23570, Pakistan</small></p></div>
+        <div><span>☎</span><p><strong>Call the Restaurant</strong><small>+92 333 9422743</small></p></div>
+        <div><span>◷</span><p><strong>Opening Hours</strong><small>Listed as 11 AM – 2 AM; please confirm before visiting.</small></p></div>
+      </div>
+      <div class="hero-buttons">
+        <a class="btn btn-gold" href="tel:+923339422743">☎ Call Now</a>
+        <a class="btn btn-outline" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Traskoon+Fast+Food+Swabi">Get Directions ↗</a>
+      </div>
+    </div>
+    <div class="map-frame">
+      <iframe title="Map showing Traskoon Fast Food Swabi" loading="lazy" src="https://maps.google.com/maps?q=Traskoon%20Fast%20Food%20Swabi&t=&z=13&ie=UTF8&iwloc=&output=embed" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <section class="order-section" id="order">
+    <div>
+      <span class="eyebrow">YOUR MEAL, YOUR WAY</span>
+      <h2>Ready to <span>Order?</span></h2>
+      <p>Add dishes from our menu and prepare an enquiry. Prices and availability must be confirmed by the restaurant.</p>
+    </div>
+    <a href="#menu" class="btn btn-gold">Choose Your Food ↗</a>
+  </section>
+</main>
+
+<footer class="footer">
+  <a href="#home" class="logo">
+    <span class="logo-icon">T</span>
+    <span>TRASKOON<small>FAST FOOD · SWABI</small></span>
+  </a>
+  <p>Traditional Afghan and Pakistani flavours near Swabi Interchange.</p>
+  <div class="footer-links"><a href="#home">Home</a><a href="#menu">Menu</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+  <p class="copyright">© 2026 Traskoon Fast Food Swabi. All rights reserved.</p>
+</footer>
+
+<button class="cart-fab" id="cartToggle" aria-label="Open shopping cart">🛒 Your Order <span id="cartCount">0</span></button>
+
+<aside class="cart-panel" id="cartPanel" aria-label="Shopping cart" aria-hidden="true">
+  <div class="cart-header"><h2>Your Order</h2><button id="closeCart" aria-label="Close cart">✕</button></div>
+  <div id="cartItems" class="cart-items"><p class="empty-cart">Your cart is empty. Add a dish to get started.</p></div>
+  <div class="cart-total"><span>Subtotal</span><strong id="cartSubtotal">Prices on request</strong></div>
+  <p class="cart-note">Exact prices, availability and delivery charges will be confirmed by the restaurant.</p>
+  <form id="orderForm">
+    <label for="customerName">Your name</label>
+    <input id="customerName" name="customerName" required placeholder="Enter your name">
+    <label for="customerPhone">Phone number</label>
+    <input id="customerPhone" name="customerPhone" type="tel" required placeholder="03xx xxxxxxx">
+    <label for="orderType">Order preference</label>
+    <select id="orderType" name="orderType"><option value="Pickup">Pickup</option><option value="Delivery">Delivery enquiry</option><option value="Dine-in">Dine-in enquiry</option></select>
+    <label for="orderNotes">Additional instructions (optional)</label>
+    <textarea id="orderNotes" name="orderNotes" rows="2" placeholder="Your instructions"></textarea>
+    <button type="submit" class="btn btn-gold checkout-btn">Prepare Order Enquiry ↗</button>
+  </form>
+  <p id="orderMessage" class="order-message" role="status"></p>
+</aside>
+<div class="cart-backdrop" id="cartBackdrop"></div>
+
+</body>
+</html>
